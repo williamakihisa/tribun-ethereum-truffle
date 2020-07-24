@@ -10,3 +10,4 @@ this is tribunnews truffle ethereum testing environment
    curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getTransactionByHash","params":["0xb0ea453df174002cce6463cb4b986e04855bfa7fec6250d46b8f79338f89d21c"],"id":1}' localhost:8545
 8. sample curl request ether price :
    curl -X POST --data '{"jsonrpc":"2.0","method":"eth_gasPrice","params":[],"id":73}' localhost:8545
+9. other sample curl request : https://eth.wiki/json-rpc/API
